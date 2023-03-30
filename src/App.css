@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: linear-gradient(60deg, #e303fc 2%, #00ff77, #eefc29 75%, #fc0384);
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.1), -5px -10px 5px rgba(0, 0, 0, 0.1);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  text-align: center;
+  line-height: 50px;
+  color: #ee357c;
+}
+
+.wrapper-input {
+  display: flex;
+  gap: 2px;
+}
+
+#input {
+  padding: 10px 15px;
+  border: 1px solid #000;
+  outline: none;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+.btn {
+  padding: 10px 22px;
+  border: none;
+  outline: none;
+  background: #00e1ff;
+  font-weight: 500;
+  font-size: 17px;
+  color: #7e1dd9;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#searchTodo {
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+.text {
+  color: #fff;
+}
+
+.icons-field {
+  display: flex;
+  gap: 5px;
+}
+
+#newTodo {
+  padding: 10px;
+  border: 1px solid #000;
+  outline: none;
+  border-radius: 3px;
+}
+
+.btns-field {
+  display: flex;
+  gap: 5px;
+}
+
+.save,
+.cancel {
+  width: 80px;
+  padding: 11px 0;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  background: #f200ff;
+  cursor: pointer;
 }
