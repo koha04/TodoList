@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Koha04/TodoList/static/css/main.c7610c7f.css",
+    "main.js": "/Koha04/TodoList/static/js/main.b780f4e4.js",
+    "static/js/787.97a945da.chunk.js": "/Koha04/TodoList/static/js/787.97a945da.chunk.js",
+    "index.html": "/Koha04/TodoList/index.html",
+    "main.c7610c7f.css.map": "/Koha04/TodoList/static/css/main.c7610c7f.css.map",
+    "main.b780f4e4.js.map": "/Koha04/TodoList/static/js/main.b780f4e4.js.map",
+    "787.97a945da.chunk.js.map": "/Koha04/TodoList/static/js/787.97a945da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7610c7f.css",
+    "static/js/main.b780f4e4.js"
+  ]
+}
