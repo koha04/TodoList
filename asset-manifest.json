@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Koha04/TodoList/static/css/main.c7610c7f.css",
-    "main.js": "/Koha04/TodoList/static/js/main.b780f4e4.js",
-    "static/js/787.97a945da.chunk.js": "/Koha04/TodoList/static/js/787.97a945da.chunk.js",
-    "index.html": "/Koha04/TodoList/index.html",
-    "main.c7610c7f.css.map": "/Koha04/TodoList/static/css/main.c7610c7f.css.map",
-    "main.b780f4e4.js.map": "/Koha04/TodoList/static/js/main.b780f4e4.js.map",
-    "787.97a945da.chunk.js.map": "/Koha04/TodoList/static/js/787.97a945da.chunk.js.map"
+    "main.css": "/TodoList/static/css/main.c7610c7f.css",
+    "main.js": "/TodoList/static/js/main.477dcc6f.js",
+    "static/js/787.97a945da.chunk.js": "/TodoList/static/js/787.97a945da.chunk.js",
+    "index.html": "/TodoList/index.html",
+    "main.c7610c7f.css.map": "/TodoList/static/css/main.c7610c7f.css.map",
+    "main.477dcc6f.js.map": "/TodoList/static/js/main.477dcc6f.js.map",
+    "787.97a945da.chunk.js.map": "/TodoList/static/js/787.97a945da.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7610c7f.css",
-    "static/js/main.b780f4e4.js"
+    "static/js/main.477dcc6f.js"
   ]
 }
