@@ -26,7 +26,11 @@ export const AddTodo = ({ todo, setTodo, todolist, setTodoList }) => {
         placeholder="Add todo..."
         onChange={addTodo}
       />
-      <button className="btn" onClick={handleSubmit}>
+      <button 
+        className="btn"
+        disabled={todo ? false : true}
+        onClick={handleSubmit}
+      >
         Add Todo
       </button>
     </div>
