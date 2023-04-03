@@ -9,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(60deg, #e303fc 2%, #00ff77, #eefc29 75%, #fc0384);
+  background: linear-gradient(60deg, #e303fc 2%, #00ff77, #eefc29 75%, #fc0384) no-repeat center;
 }
 
 .App {
@@ -110,4 +110,12 @@ body {
   color: #fff;
   background: #f200ff;
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 499px) {
+  .wrapper-input {
+    flex-direction: column;
+    align-items: flex-end;
+  }
 }
